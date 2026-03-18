@@ -8,8 +8,8 @@ class IosAppstoreScreenshots < Formula
   depends_on :macos
 
   def install
-    system "swift", "build", "-c", "release"
-    bin.install ".build/release/ScreenshotGenerator" => "ios-appstore-screenshots"
+    system "swift", "build", "-c", "release", "--product", "ios-appstore-screenshots"
+    bin.install ".build/release/ios-appstore-screenshots"
   end
 
   test do
