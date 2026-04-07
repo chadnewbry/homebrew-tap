@@ -1,6 +1,6 @@
 cask "tongue" do
-  version "0.4.0"
-  sha256 "17c573c7aec5c17d8fa14f856338c16fbf62da4ddb279fc95e831d01a8fda9ca"
+  version "0.5.0"
+  sha256 "2212460a384ba69ea43b9e5e9b2646b4bbb1ac93bac54589c7516e4b6c8b9374"
 
   url "https://trytongue.com/downloads/Tongue-#{version}.dmg"
   name "Tongue"
